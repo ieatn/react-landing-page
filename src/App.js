@@ -11,7 +11,7 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Chef />
-    {/* full screen video */}
+    <Intro />
     <Laurels />
     <Gallery />
     <FindUs />
