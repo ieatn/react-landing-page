@@ -6,15 +6,15 @@
     align-items: center;
     padding: 1rem 3rem;
 }
-.middle ul {
+.nav-middle ul {
     display: flex;
     gap: 2rem;
 }
-.middle li {
+.nav-middle li {
     text-decoration: none;
     list-style: none;
 }
-.right {
+.nav-right {
     display: flex;
     gap: 1rem;
 }

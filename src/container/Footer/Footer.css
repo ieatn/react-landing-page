@@ -1,0 +1,44 @@
+.footer {
+    height: 100vh;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    border: solid goldenrod 1px;
+}
+.newsletter button {
+    width: 100px;
+    margin: auto;
+}
+.newsletter input {
+    width: 400px;
+    margin: auto;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+.footer-btn {
+    margin: auto;
+}
+footer {
+    margin-top: 3rem;
+}

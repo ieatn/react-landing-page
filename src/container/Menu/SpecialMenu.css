@@ -1,0 +1,35 @@
+.menu {
+    height: 100vh;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.menu-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    text-align: center;
+}
+.menu-left {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+}
+.menu-right {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+}
+.menu-btn {
+    margin: auto;
+}

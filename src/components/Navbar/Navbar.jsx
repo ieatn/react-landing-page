@@ -5,10 +5,10 @@ import './Navbar.css';
 const Navbar = () => (
   <div>
     <nav className='navbar'>
-      <div className="left">
+      <div className="nav-left">
         Gericht
       </div>
-      <div className="middle">
+      <div className="nav-middle">
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">Home</a></li>
@@ -17,7 +17,7 @@ const Navbar = () => (
           <li><a href="">Home</a></li>
         </ul>
       </div>
-      <div className="right">
+      <div className="nav-right">
         <a href="">Log In/Register</a>
         <a href="">Book Table</a>
       </div>

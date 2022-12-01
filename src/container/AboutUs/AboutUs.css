@@ -1,0 +1,28 @@
+.about-us {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+    gap: 3rem;
+}
+.about-us button {
+    width: 100px;
+}
+.about-left-btn {
+    margin-left: auto;
+}
+.about-left {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 2rem;
+}
+.about-right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
