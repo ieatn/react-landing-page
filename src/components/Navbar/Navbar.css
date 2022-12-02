@@ -77,11 +77,26 @@
     font-family: var(--font-base);
     font-size: 2rem;
 }
+
+/* laptop */
 @media screen and (max-width: 1100px) {
     .nav-middle {
         display: none;
     }
     .modal {
         display: flex;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 650px) {
+    .navbar {
+        padding: 1rem;
+    }
+    .nav-right {
+        display: none;
+    }
+    .nav-logo {
+        width: 110px;
     }
 }
