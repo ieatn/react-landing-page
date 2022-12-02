@@ -17,18 +17,18 @@ const Navbar = () => {
       </div>
       <div className="nav-middle">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#awards">Awards</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li className='p__opensans'>< a href="#home">Home</a></li>
+          <li className='p__opensans'>< a href="#about">About</a></li>
+          <li className='p__opensans'>< a href="#menu">Menu</a></li>
+          <li className='p__opensans'>< a href="#awards">Awards</a></li>
+          <li className='p__opensans'>< a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div className="nav-right">
-        <a href="#login">Log In / Register</a>
+        <a href="#login" className='p__opensans'>Log In / Register</a>
         {/* divider in css */}
         <div></div>
-        <a href="/">Book Table</a>
+        <a href="/" className='p__opensans'>Book Table</a>
       </div>
 
       

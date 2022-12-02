@@ -1,13 +1,17 @@
 .header {
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 2rem;
+    background-color: var(--color-black);
+}
+.header h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
 }
 .header-left {
-    width: 600px;
+    margin-left: 30rem;
 }
 .header-right img {
-    width: 600px;
+    width: 50%;
 }
