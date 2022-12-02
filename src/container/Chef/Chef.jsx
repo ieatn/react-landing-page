@@ -1,11 +1,13 @@
 import React from 'react';
 
 import './Chef.css';
+import {SubHeading} from '../../components'
+import {images} from '../../constants'
 
 const Chef = () => (
   <div className='chef'>
     <div className="chef-left">
-      <img src="https://i.kym-cdn.com/entries/icons/original/000/029/857/Shirogane_learns_Volleyball_2-3_screenshot.png" alt="" />
+      <img src={images.chef} alt="" />
     </div>
     <div className="chef-right">
       <p>Chef's Word</p>

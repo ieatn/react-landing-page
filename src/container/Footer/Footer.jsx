@@ -1,20 +1,16 @@
 import React from 'react';
 
+import {FiFacebook, FiTwitter, FiInstagram} from 'react-icons'
 import './Footer.css';
+import {images} from '../../constants'
+import {FooterOverlay, Newsletter} from '../../components'
 
 const Footer = () => (
 
   <div className='footer'>
-    <div className="newsletter">
-      <p>Newsletter</p>
-      <h1>Subscribe To Our Newsletter</h1>
-      <p>And Never Miss Latest Updates!</p>
-      <div className="">
-        <input type="email" placeholder='Enter Your Email Address' />
-        <button>Subscribe</button>
-      </div>
-    </div>
-    <div className="footer-container">
+    <FooterOverlay />
+    <Newsletter />
+    <div className="footer-container app__bg">
       <div className="footer-left">
         <h2>Contact Us</h2>
         <p>9 W 53rd St, New York, NY 10019, USA</p>
@@ -22,7 +18,7 @@ const Footer = () => (
         <p>+1 212-344-1230</p>
       </div>
       <div className="footer-middle">
-        Gericht image
+        <img src={images.gericht} alt="" />
         <p>"The Best Way To Find Yourself Is To Lose Yourself In Others."</p>
         <div className="social-media">
           facebook icon
