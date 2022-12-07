@@ -1,25 +1,5 @@
-.chef {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 6rem;
-    gap: 10rem;
-    font-size: 1rem;
-    line-height: 20px;
-}
-.chef img {
-    width: 600px;
-}
-.chef-quote {
-    font-size: 9rem;
-    margin-top: 5rem;
-    display: inline-block;
-}
-.chef-right {
-    width: 600px;
-}
-.small-text {
-    margin-top: 3rem;
-    font-size: 0.5rem;
+.chef-name {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 24px;
 }
