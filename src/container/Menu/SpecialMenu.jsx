@@ -7,6 +7,7 @@ import {SubHeading, MenuItem} from '../../components'
 const SpecialMenu = () => (
   <div className='menu' id='menu'>
     <div className="menu-header">
+      {/* pass in menu to subheading for the style and little spoon */}
       <SubHeading title="Menu That Fits Your Palatte"/>
       <h1 className='headtext__cormorant'>Today's Special</h1>
     </div>
@@ -30,10 +31,10 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
-      <div style={{ marginTop: 15 }}>
+    </div>
+    <div style={{ marginTop: 15 }}>
         <button className="custom__button">View More</button>
       </div>
-    </div>
   </div>
 );
 

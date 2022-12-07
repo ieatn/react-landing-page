@@ -4,6 +4,7 @@ import './MenuItem.css';
 
 const MenuItem = ({title, price}) => (
   <div>
+    
     <div>
       <div>
         <p className='p__cormorant' style={{color: '#DDCA87'}}>{title}</p>
@@ -15,6 +16,7 @@ const MenuItem = ({title, price}) => (
         <p className='p__cormorant'>{price}</p>
       </div>
     </div>
+
   </div>
 );
 
