@@ -20,7 +20,7 @@ const Chef = () => (
       <p className="chef-name">Kevin Luo</p>
       <p className='p__opensans'>Chef and Founder</p>
       <br />
-      <img src={images.sign} alt="" />
+      <img src={images.sign} alt="" className='autograph' />
     </div>
   </div>
 );
