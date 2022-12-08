@@ -1,20 +1,9 @@
-.laurels {
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 2rem;
-    margin: 0 6rem;
+.laurel-img {
+    width: 50%;
 }
-.laurels img {
-    width: 600px;
-}
-.laurels li {
-    list-style: none;
-}
-.award-title {
-    color: goldenrod;
-}
-.laurels-left h1 {
-    margin-bottom: 4rem;
+@media screen and (max-width: 450px) {
+    .laurel-img {
+        width: 100%;
+        margin: 1rem 0;
+    }
 }
