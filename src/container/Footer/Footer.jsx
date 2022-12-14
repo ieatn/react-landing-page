@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {FiFacebook, FiTwitter, FiInstagram} from 'react-icons'
+import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 import './Footer.css';
 import {images} from '../../constants'
 import {FooterOverlay, Newsletter} from '../../components'
@@ -21,9 +21,9 @@ const Footer = () => (
         <img src={images.gericht} alt="" />
         <p>"The Best Way To Find Yourself Is To Lose Yourself In Others."</p>
         <div className="social-media">
-          facebook icon
-          twitter icon
-          instagram icon
+          <FiFacebook />
+          <FiTwitter />
+          <FiInstagram />
         </div>
         <footer>2021 Gericht. All Rights Reserved.</footer>
       </div>
